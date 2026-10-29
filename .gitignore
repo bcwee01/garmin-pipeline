@@ -1,0 +1,13 @@
+.env
+*.db
+*.log
+logs/
+__pycache__/
+*.pyc
+reports/
+garmin_daily_*.txt
+garmin_daily_verdict.txt
+dashboard_data.json
+intervals_data.json
+artifact_updated.html
+dashboard.html
