@@ -96,7 +96,7 @@ def main():
     out_path = os.path.join(OUTPUT_DIR, "intervals_data.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
-    print(f"intervals_data.json: {len(activities)} activities, {len(wellness)} wellness days → {out_path}")
+    print(f"intervals_data.json: {len(activities)} activities, {len(wellness)} wellness days -> {out_path}")
 
 
 if __name__ == "__main__":
